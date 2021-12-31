@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    background-color: rgb(61, 36, 36);
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+    color:#fff;
+}
+.cardBox{
+    width:100%;
+    
+}
+.cardContent{
+    display:flex;
+    flex-flow: column;
+    gap:15px;
+}
+.title{
+    display:flex;
+    gap:20px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom:20px; 
+    width:80%;
+}
+.logoHead{
+    margin-bottom:15px;
+}
+.contentValue{
+    font-size:20px;
+}
+
+@media(max-width:900px){
+     img{
+         height:55vh;
+     }
+     .head h2{
+         font-size:20px;
+     }
+     .mainTitle{
+         font-size:20px;
+     }
+     .logo{
+         flex-flow: column;
+         gap:20px;
+        
+         align-items: flex-start;
+     }
+}
